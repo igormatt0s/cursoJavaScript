@@ -1,0 +1,46 @@
+O que é JavaScript?
+	É uma linguagem de programação, chamada de scripiting. Ele é responsável por dar vida as páginas web, a jogos e alicativos.
+	HTML e CSS é a arte estática do site e o JavaScript é a parte dinâmica, exemplo videos rolando pra cima e pra baixo, animações play books.
+O que é o NodeJS?
+	É um server environment. É opensource e utilizado para rodar os códigos que não estão nas páginas web.
+	Ou seja, criamos os codigos em JavaScript e eles são refletidos em uma página web. Se você quiser executar ele localmente na sua máquina, você pprecisa do NodeJS.
+JavaScript no Browser
+	O  JavaScript é chamado de Client Side Programming Language, ou seja, ele é executado no lado do cliente e não no lado do servidor.
+	O browser já tem o JavaScript instalado.
+	O código JavaScript está no server, mas ele só é executado no browser do cliente.
+	O browser tem que ter o JavaScript Engine para rodar o site com o script
+	Na tela de inspecionar do browser, tem uma aba chamada Console que é a parte do JavaScript Engine, onde estará os códigos em JavaScript
+	
+	Códigos iniciais:
+		console.log('mensagem que aparecerá no console');
+		Pode fazer calculos tbm
+		alert('alerta que apparecerá na parte cuperior do site, tipo um pop-up, uma pequena janela interativa com essa mensagem')
+
+Os três arquivos importantes e iniciais para criar as aplicações em JavaScript
+	index.html: vão ter as intruções da ágina web estática
+	index.js: vão os códigos do JavaScript
+	styles.css: onde estarão os códigos CSS para trazer vida ao seu site, aplicação ou projeto
+
+	Dentro do HTML você tem que fazer uma referência ao JS e apontar também para o styles.css
+Preparando o Visual Code
+	Primeiro cria os três arquivos
+	Como vamos rodas localmente os códigos, é necessário um app server instalado na máquina, dentro do VSCode tem uma versão bem leve de um web server: Live Server (você encontra em extensions)
+	
+	Código para completar o básico de um html code: ! + TAB
+	Para testar o WebServer local é só clicar com botão direito no index.html e escolher a opção Open With Live Server
+Utilizando o ASI
+	ASI é uma feature (qualidade) do JavaScrit que significa Automatic Semi-Column Insert, ou seja, ele colocar em back plane automaticamente o ponto e vírgula.
+	Funciona na maioria das vezes, então é melhor usar o ponto e vírgula.
+Tipos de variáveis
+	Primitivo
+		String
+		Numero
+		Boolean
+		Undefined
+		NULL
+	Referencia
+		Objects
+		Array
+		Functions
+[] - Brackets
+{} - Curly Brackets ou Curly Braces

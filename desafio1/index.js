@@ -1,0 +1,2 @@
+//Métodos
+document.getElementById('text').innerHTML = 'burgers' //esse método getElementById faz uma referência em um ponto do document HTML e a propriedade innerHTML faz a inserção do valor na HTML dentro da id text

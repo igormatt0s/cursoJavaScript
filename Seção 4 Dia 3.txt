@@ -1,0 +1,36 @@
+Iniciando com Object Oriented Programming (OOP)
+	O OOP é uma forma de organizar o código, agrupando, segmentando e reutilizando.
+	Objetos - tem propriedades e métodos
+		Ex. Object: Book
+			Proprieties: Title, Author, Pages, Price
+			Methods: Read, Sell, Buy, Info
+		let bookTitle = 'Atomic Habits'
+		let bookAuthor = 'James Clear'
+		let bookPages = 306
+	Variáveis relacionadas com um objeto book
+		const book = {
+    			Title: 'Atomic Habits',
+    			Author: 'James Clear',
+    			Pages: 306,
+    			Chapters: {
+        			chap1: 'Fundamentals',
+        			chap2: '1st law'
+    			}
+		} //é possível criar um objeto e nele ter propriedades com multiplos valores
+	Functions dentro de Objects
+Factory
+	É um grupo de vários Objects relacionáveis
+	Functions que retornam objetos e recebem parâmetros que preenchem as prorpiedades
+Constructor
+	É mais simples do que o Factory, mas a quantidade de código é bem menor
+	É um construtor de objetos como o Factory
+Garbage Collector
+	É uma feature do JavaScript onde você não precisa configurar a reserva de memória para uma variável
+	Em uma linguagem de programação, por exemplo, você tem que reservar a memória para armazenar uma variável e depois armazenar a variável. Depos tem que fazer um dumping, ou seja, tirar aquela reserva para liberar memória
+Objetos Built in
+	É um objeto já pronto, tem vários tipos e você encontra pesquisando ona internet os Built in Objects
+	Nele você tem várias funções desde Pi, numeros randômicos, menor do que x, até data
+	<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects> LINK para ver todos os Objects
+	String é uma Built in Objects utilizado para manipular caracteres
+Template Literals
+	Ajuda quando tem que mostrar alguma mensagem na tela ou escrever um e-mail que seja basead em uma mensagem que está no código
